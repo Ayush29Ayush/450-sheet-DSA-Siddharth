@@ -31,6 +31,7 @@
 //! refer -> https://www.youtube.com/watch?v=ELjbzOQ-liI
 //! do dry run for better understanding
 
+//! refer this too -> https://youtu.be/Du881K7Jtk8?t=447
 class Solution {
     public:
         vector<int> nextGreaterElement(vector<int>& nums1, vector<int>& nums2) {
