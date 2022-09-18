@@ -2,6 +2,7 @@
 1. Basic idea is that we will sort the array
 2. The element which is present more than size/2 time must appear at the mid of the vector.
 3. Return the middle element.
+Ex-> {6,6,2,3,6} here size = n = 5 so maximum element has to appear more that n/2 times so more that 2 times. 
 */
 // using sorting -> O(NlogN)
 // class Solution {
