@@ -13,6 +13,8 @@ public:
         {
             // contiguous array ka sum lete jao har traversal pe
             sum += nums[i];
+            
+            
             //1. agar sum=k ho gaya toh ek subarray mil gaya so count++
             if(sum==k)
                 count++;
@@ -20,6 +22,8 @@ public:
             // like Y=X+k so Y-k=X 
             if(mp.find(sum-k)!=mp.end())
                 count += mp[sum-k];
+            
+            
             //4. agar vahi sum phir kabhi aage mil gaya so update its freq
             if(mp.find(sum)!=mp.end())
                 mp[sum]++;
